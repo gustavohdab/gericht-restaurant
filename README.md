@@ -21,13 +21,17 @@
   Mobile preview
 </p>
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:1px;">
-          <img src="./.github/gericht-restaurant-gustavohdab.vercel.app_(iPhone%20SE).png" width="500"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="./.github/gericht-restaurant-gustavohdab.vercel.app_(iPhone%20SE)%20(1).png" width="500"/>
-     </div>
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src=".github/gericht-restaurant-gustavohdab.vercel.app_(iPhone%20SE).png" width="100%"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="./.github/gericht-restaurant-gustavohdab.vercel.app_(iPhone%20SE)%20(1).png" width="100%"/>
+            </td>
+        </tr>
+    </table>
 </div>
 
 ## 🚀 Tecnologias
@@ -47,3 +51,10 @@ O projeto é uma landing page de um restaurante, com navbar, menu, sobre, premia
 ---
 
 Feito com ♥ by Gustavo Batista :wave: [LinkedIn](https://www.linkedin.com/in/gustavo-h-batista/) e [GitHub](https://github.com/gustavohdab)
+
+>>[Presentation Video] Extra 
+
+https://user-images.githubusercontent.com/112674398/204040541-5e2bd100-2c3e-4645-b919-7a2af796c2d7.mp4
+
+
+
