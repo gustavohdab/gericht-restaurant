@@ -1,0 +1,135 @@
+.app__chef-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 5rem;
+}
+
+.app__chef-content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.app__chef-content_quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+
+.app__chef-sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.app__chef-sign p:first-child {
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.app__chef-sign img {
+  width: 250px;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 2000px) {
+  .app__chef-content_quote img {
+    width: 40px;
+    height: 33px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .app__chef-sign img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .app__chef-content_quote img {
+    width: 35px;
+    height: 28px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .app__chef-sign img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app__chef-content_quote img {
+    width: 30px;
+    height: 23px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .app__chef-sign img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__chef-content_quote img {
+    width: 25px;
+    height: 18px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .app__chef-sign img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app__chef-content_quote img {
+    width: 20px;
+    height: 13px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .app__chef-sign img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .app__chef-content_quote img {
+    width: 15px;
+    height: 8px;
+  }
+
+  .app__chef-sign p:first-child {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .app__chef-sign img {
+    width: 80%;
+  }
+}
